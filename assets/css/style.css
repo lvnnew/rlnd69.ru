@@ -1,0 +1,269 @@
+body,
+html {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  font-family: sans-serif, Arial, Helvetica;
+  font-size: 18px;
+}
+
+.fixed-crossbrowser-background {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-color: #fff;
+  background-image: url(../images/fon.jpg);
+  opacity: 1;
+  z-index: -1;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  margin: 0 auto;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+td,
+th {
+  font-weight: normal;
+  padding: 0 2px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.navbar-brand {
+  padding: 0 15px;
+}
+
+.opisanie li {
+  list-style: none;
+  margin-left: -20px;
+}
+
+.list {
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.main {
+  min-height: calc(75vh);
+}
+
+p,
+hr {
+  margin: 5px;
+}
+
+.ital {
+  font-style: italic;
+}
+
+.topmenu {
+  margin: 0 15px;
+}
+
+.footer {
+  margin: auto;
+  width: 100%;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  color: #ffff00;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.navbar-inverse {
+  background-color: #336699;
+  border-color: #336699;
+  border-radius: 0;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+  color: #fff;
+  background-color: #6699cc;
+  background-image: url(../images/bg_bottom.jpg);
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+  color: #fff;
+  background-color: #336699;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #cce5ff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #fff;
+
+  background-image: url(../images/bg_bottom.png);
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #fff;
+}
+
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+  background-color: #6699cc;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #6699cc;
+}
+
+
+.price-a>li>a {
+  padding: 0 15px;
+}
+
+.img img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.slaid img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 50px auto 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.right img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 10px 10px 10px auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.teni {
+  max-width: 100%;
+  margin: 20px auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.teni1 {
+  max-width: 300px;
+  margin: 10px auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.teni2 {
+  max-width: 400px;
+  margin: 10px auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.teni3 {
+  max-width: 800px;
+  margin: 10px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.teni4 {
+  box-shadow: 0px -3px 15px rgba(0, 0, 0, 0.5);
+}
+
+.teni5 {
+  max-width: 200px;
+  margin: 10px auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.center {
+  text-align: center;
+}
+
+.tuman img {
+  display: block;
+  opacity: 1;
+}
+
+.tuman img:hover {
+  opacity: .75;
+}
+
+.breadcrumb {
+  background: none;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.breadcrumb ul {
+  padding: 0;
+  background: none;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.breadcrumb ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.bold td {
+  font-weight: bold;
+  text-align: center;
+}
+
+#toTop {
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  bottom: 10px;
+  /* отступ кнопки от нижнего края страницы*/
+  right: 10px;
+  cursor: pointer;
+  display: none;
+}
+
+#toBack {
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  bottom: 10px;
+  /* отступ кнопки от нижнего края страницы*/
+  left: 10px;
+  cursor: pointer;
+  display: none;
+}

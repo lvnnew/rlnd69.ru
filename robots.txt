@@ -1,0 +1,24 @@
+User-agent: Yandex
+Allow: /
+Disallow: /manager
+Disallow: /assets
+Disallow: /core
+Disallow: /connectors
+Disallow: /index.php
+Disallow: /index.hml
+Disallow: /index
+Disallow: *?
+Host: rlnd69.ru
+
+User-agent: *
+Allow: /
+Disallow: /manager
+Disallow: /assets
+Disallow: /core
+Disallow: /connectors
+Disallow: /index.php
+Disallow: /index.hml
+Disallow: /index
+Disallow: *?
+
+Sitemap: http://rlnd69.ru/sitemap.xml
